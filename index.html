@@ -3,14 +3,9 @@
 <head>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="styles.css">
-
-  <script src="node_modules/angular/angular.js"></script>
-  <script src="app/module.js"></script>
-  <script src="app/movie-list.component.js"></script>
-  <script src="app/movie-list.controller.js"></script>
 </head>
 
-<body>
+<body ng-cloak>
   <nav class="navbar narbar-default navbar-inverse" class="container-fluid">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -19,7 +14,12 @@
     </div>
   </nav>
   <div class="container">
-    <movie-list></movie-list>
+    <movie-list>...</movie-list>
   </div>
+
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="app/module.js"></script>
+  <script src="app/movie-list.controller.js"></script>
+  <script src="app/movie-list.component.js"></script>
 </body>
 </html>
