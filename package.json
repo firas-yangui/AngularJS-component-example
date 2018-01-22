@@ -1,0 +1,31 @@
+{
+  "name": "component",
+  "version": "1.0.0",
+  "description": "just simple app",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firas-yangui/AngularJS-component-example.git"
+  },
+  "keywords": [
+    "angularjs",
+    "component",
+    "routing"
+  ],
+  "author": "firas yangui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firas-yangui/AngularJS-component-example/issues"
+  },
+  "homepage": "https://github.com/firas-yangui/AngularJS-component-example#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angularjs": "0.0.1",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
