@@ -8,7 +8,7 @@
       return {
         templateUrl: "./app/movie-list.component.html",
         controllerUrl:"./app/movie-list.controller.js",
-        controllerAs: "model"
+        controllerAs: "ctrl"
       };
     }
 })();
