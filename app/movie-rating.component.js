@@ -10,6 +10,7 @@
       bindings: {
         value: '<'
       },
+      transclude: true,
       controllerAs: 'ctrl',
       controller: movieRatingController
     };
