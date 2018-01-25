@@ -1,4 +1,4 @@
-(function() {
+(function () {
   'use strict';
 
   angular.module('psMovies')
@@ -8,12 +8,20 @@
       var self = this;
 
       self.message = "hello i'm here";
-      self.changeMessage = changeMessage;
       self.$onInit = $onInit;
+      self.upRating = upRating;
+      self.downRating = downRating;
 
-      function changeMessage() {
-        console.log('changed');
-        self.message = "new message";
+      function upRating(movie) {
+        if(movie.rating < 5) {
+          movie.rating += 1;
+        }
+      }
+
+      function downRating(movie) {
+        if(movie.rating > 1) {
+          movie.rating -= 1;
+        }
       }
 
       function fetchMovies() {
